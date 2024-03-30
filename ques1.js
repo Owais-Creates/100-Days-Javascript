@@ -3,7 +3,7 @@
 // Programming Question - Longest word in a string.
 //*-------------------------------------------------
 
-//* Ques-1 --> Write a function findLongestWord that takes a string as an input and returns the longest word in the string. If there are multiple longest words it should return the first one encountered.
+//* Ques--> Write a function findLongestWord that takes a string as an input and returns the longest word in the string. If there are multiple longest words it should return the first one encountered.
 
 // ---> Constraints:
 // 1.--> The alphabets may contain alphabetic characters, digits, spaces and punctuation.
