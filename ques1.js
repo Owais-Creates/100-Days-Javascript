@@ -29,10 +29,13 @@ const findLongestWord = (str) => {
         }
     }
 
-    return defaultStr;
+    return `The longest word is "${defaultStr}" `;
 }
 
 console.log(
     findLongestWord(" hello my name is Owaisiii ")
 );
+
+// OUTPUT : The longest word is "Owaisiii" 
+
 
