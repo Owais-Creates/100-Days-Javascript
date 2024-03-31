@@ -13,7 +13,7 @@
 
 const generateHash = (str) => {
 
-    if (str.length > 20 || str.trim().length == "") {
+    if (str.length > 50 || str.trim().length == "") {
         return false;
     }
 
@@ -32,3 +32,6 @@ const generateHash = (str) => {
 console.log(
     generateHash("100 days javascript challenge")
 );
+
+// OUTPUT : #100DaysJavascriptChallenge
+
