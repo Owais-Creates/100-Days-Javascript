@@ -40,3 +40,6 @@ console.log(
     countChar("missisipi i", "I")
 );
 
+// OUTPUT : The Character --> i is present 5 times in the given str --> missisipi i
+
+
