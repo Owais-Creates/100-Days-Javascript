@@ -14,9 +14,9 @@
 // 1.--> If the input string is empty and contain only whitespaces, the function should return a false.
 // 2.--> The function should ignore leading and trailing whitespace and determine the longest word.
 
-const findLongestWord = (str) => {
+function findLongestWord(str) {
     if (str.trim() == "") {
-        return `False --> The provided string is empty`
+        return `False --> The provided string is empty`;
     }
 
     const splitStr = str.trim().split(" ");
