@@ -27,3 +27,4 @@ const isPalindrome = (str) => {
 }
 
 console.log(isPalindrome(" A man, a Plan, a CanAl, Panama"));
+
