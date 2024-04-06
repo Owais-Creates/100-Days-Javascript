@@ -2,6 +2,12 @@
 // Programming Question - Find if Arrays are equal.
 //*-------------------------------------------------
 
+// Write a function isArraysEqual which takes two array as a param and compares them if they both are equal or not.
+
+// The func can accept positive integers.
+// The func can accept negative integers.
+// The func can accept alphabets (CASE-SENSITIVE) integers.
+
 const isArraysEqual = (arr1, arr2) => {
 
     let counter = 0;
