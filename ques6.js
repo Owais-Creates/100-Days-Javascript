@@ -12,8 +12,6 @@
 const isPalindrome = (str) => {
 
     let caseInsensitiveStr = str.trim().toLowerCase().replace(/[\W_]/g,'');  
-    console.log(caseInsensitiveStr);
-
     let normalStr; 
     let reversedStr;
 
@@ -27,4 +25,6 @@ const isPalindrome = (str) => {
 }
 
 console.log(isPalindrome(" A man, a Plan, a CanAl, Panama"));
+// OUTPUT - True the string --> "amanaplanacanalpanama" is palindrome
+
 
