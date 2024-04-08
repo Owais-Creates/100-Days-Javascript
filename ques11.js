@@ -4,26 +4,29 @@
 
 // Write a function removeDuplcates which takes array as an input and removes duplicate elements from the array.
 
-const removeDuplicates = (arr) => {
+const removeDuplcates = (arr) => {
     const uniqueArray = [];
 
-    for (let i = 0; i < arr.length; i++) {
-        let isDuplicate = false;
-        for (let j = 0; j < uniqueArray.length; j++) {
-            if (arr[i] === uniqueArray[j]) {
-                isDuplicate = true;
+    for (i = 0; i < arr.length; i++) {
+
+        let flag = false;
+
+        for (j = 0; j < uniqueArray.length; j++) {
+            if (arr[i] == uniqueArray[j]) {
+                flag = true;
                 break;
             }
         }
-        if (!isDuplicate) {
+
+        if (!flag) {
             uniqueArray.push(arr[i]);
         }
     }
 
-    return uniqueArray;
+   return uniqueArray
+
 }
 
-const arr = [1, 2, 3, 4, 5, 5, 5];
-const newArr = removeDuplicates(arr);
-console.log(newArr); // Output: [ 1, 2, 3, 4, 5 ]
-
+console.log(
+    removeDuplcates([1, 2, 2, 3, 4, 2, 5, 5, 5]) //OUTPUT - [ 1, 2, 3, 4, 5 ]
+);

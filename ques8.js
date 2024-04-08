@@ -24,5 +24,5 @@ const factorial = (num) => {
 }
 
 console.log(
-    factorial(5)
+    factorial(5) //OUTPUT - Factorial of 5 is 120
 );
