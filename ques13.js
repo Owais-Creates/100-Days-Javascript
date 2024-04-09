@@ -2,6 +2,7 @@
 // Programming Question - Count the vowels in the string.
 //*-------------------------------------------------------
 
+// Write a function countVowels which takes string as an input and  returns  the number of vowels present in that string. 
 
 const countVowels = (str) => {
 
@@ -15,8 +16,8 @@ const countVowels = (str) => {
         for (j = 0; j < vowels.length; j++) {
 
             if (lowerCasedStr[i] == vowels[j]) {
+                vowelChar[count] = lowerCasedStr[i];
                 count++;
-                vowelChar.push(lowerCasedStr[i]);
             }
 
         }
@@ -31,3 +32,4 @@ console.log(
 );
 
 //OUTPUT - The count of vowels --> 5 which is {e,u,i,o,o} 
+
