@@ -30,13 +30,13 @@ const isArraysEqual = (arr1, arr2) => {
     if (counter == arr1.length) {
         return 'The arrays are equal'
     } else {
-        return `Only ${counter} elements are equal rest are not which is : ${equalElements}`
+        return `Only ${counter} elements are equal which are --> {${equalElements}} rest are not:`
     }
 
 }
 
-const arr1 = [1, 2, 3, 4]
-const arr2 = [1, 2, 3, 4]
+const arr1 = [1, 2, 3, 4,5]
+const arr2 = [1, 2, 3, 4,6]
 
 console.log(
     isArraysEqual(arr1, arr2) //OUTPUT - The arrays are equal.
