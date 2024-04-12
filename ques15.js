@@ -6,12 +6,16 @@
 
 
 const sumOfSquare = (arr) => {
+
+    if(!Array.isArray(arr)){
+        return 'false input'
+    }
+
     let res = 0;
 
     for (i = 0; i < arr.length; i++) {
 
         res += arr[i] * arr[i]
-
     }
 
     return `The sum of squares of ${arr} is --> ${res} `;
