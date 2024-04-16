@@ -27,7 +27,7 @@ const countMultiples = (arr, num) => {
         return  'The inputted number is not present in the array.'
     }
 
-    return `The count of multiples of 3 is ${counter}`
+    return  `There are ${counter} numbers before and including ${num} that are divisible by 3.`;
 
 }
 
