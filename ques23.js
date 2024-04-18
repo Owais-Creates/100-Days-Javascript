@@ -29,7 +29,8 @@ const findMedianArr = (arr) => {
 
     //Median Calculation.
     if ((arr.length % 2) == 0) {
-        return `Median of even length of Array is ${Math.floor((arr[(arr.length / 2)] + arr[(arr.length / 2) - 1]) / 2)}`
+        return `Median of even length of Array is ${Math.floor((arr[(arr.length / 2)] 
+        + arr[(arr.length / 2) - 1]) / 2)}`
 
     } else {
         return `Median of odd length of Array is ${arr[Math.floor(arr.length/2)]}`
