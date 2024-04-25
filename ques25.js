@@ -11,6 +11,7 @@ const sortFromAtoB = (str) => {
     let asciiCode = 65;
     let res = "";
     let prevIndex = 0;
+    let i = 0;
 
     while (asciiCode <= 90) {
 
@@ -18,11 +19,14 @@ const sortFromAtoB = (str) => {
 
             if (str[i].charCodeAt() === asciiCode) {
                 res += str[i];
-                asciiCode++;
-                prevIndex = i + 1;
                 break;
             }
         }
+
+        asciiCode++;
+        prevIndex = i+1;
+
+
     }
 
     return `Sorted --> ${res}`;
